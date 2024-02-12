@@ -1,10 +1,15 @@
 #! /bin/bash
 
-echo -e "ENter the name of the file: \c"
+echo -e "Enter the name of the file: \c"
 read file_name
 
 if [ -f $file_name ]; then
-	echo "$file_name isn't empty"
+	if [ -w $file_name ]; then
+		echo "Type some text data. To quit press ctrl+d"
+		cat >> $file_name  # > = overwrite >> = append
+	else
+		echo "The file do not have write permissions"
+	fi
 else
 	echo "$file_name is empty"
 fi
