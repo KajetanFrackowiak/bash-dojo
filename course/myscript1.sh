@@ -21,9 +21,13 @@ fi
 
 command="/usr/bin/htop"
 
-if [ -x "$command" ]; then
+if command -v "$command" &>/dev/null; then #&> Redirects both stdout and stder. /dev/null is a special device fileon Unix-like that discards all data written to it
 	version="$("$command" --version)"
 	echo "htop version: $version"
 else
 	echo "$command is not available"
+	sudo apt update && sydo apt install -y $command # -y flag stands for "yes"
 fi
+
+
+
