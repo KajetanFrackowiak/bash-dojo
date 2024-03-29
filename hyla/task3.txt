@@ -1,0 +1,4 @@
+0 2 * * * /home/kajetan/Documents/task1.sh >/dev/null 2>&1
+
+# 0 2 * * *: specifie the time schedule. in this case at 2:00 am every day
+# >/dev/null 2>&1 Redirects standard output and errors to /dev/null, whcih means that won't be any notifications about the job execution

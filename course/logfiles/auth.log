@@ -1,0 +1,114 @@
+Mar 24 19:37:05 Kajetandell sshd[241]: Server listening on 0.0.0.0 port 22.
+Mar 24 19:37:05 Kajetandell sshd[241]: Server listening on :: port 22.
+Mar 24 19:37:07 Kajetandell login[370]: pam_unix(login:session): session opened for user kajetan(uid=1000) by (uid=0)
+Mar 24 19:37:07 Kajetandell systemd-logind[150]: New session 1 of user kajetan.
+Mar 24 19:37:07 Kajetandell systemd: pam_unix(systemd-user:session): session opened for user kajetan(uid=1000) by (uid=0)
+Mar 24 19:37:31 Kajetandell sudo:  kajetan : TTY=pts/0 ; PWD=/home/kajetan ; USER=root ; COMMAND=/usr/bin/apt install ncal
+Mar 24 19:37:31 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 24 19:37:33 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 19:37:59 Kajetandell sudo:  kajetan : TTY=pts/0 ; PWD=/home/kajetan ; USER=root ; COMMAND=/usr/bin/apt install cpufetch
+Mar 24 19:37:59 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 24 19:38:01 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 19:42:16 Kajetandell sudo:  kajetan : TTY=pts/0 ; PWD=/home/kajetan ; USER=root ; COMMAND=/usr/bin/apt install answeather
+Mar 24 19:42:16 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 24 19:42:16 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 19:42:31 Kajetandell sudo:  kajetan : TTY=pts/0 ; PWD=/home/kajetan ; USER=root ; COMMAND=/usr/bin/apt install ansiweather
+Mar 24 19:42:31 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 24 19:42:33 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 20:05:15 Kajetandell sudo:  kajetan : TTY=pts/0 ; PWD=/home/kajetan ; USER=root ; COMMAND=/usr/bin/apt install neofetch
+Mar 24 20:05:15 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 24 20:05:31 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 20:09:45 Kajetandell sudo:  kajetan : TTY=pts/0 ; PWD=/home/kajetan ; USER=root ; COMMAND=/usr/bin/apt install openttd
+Mar 24 20:09:45 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 24 20:09:53 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 20:17:01 Kajetandell CRON[13252]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 24 20:17:01 Kajetandell CRON[13252]: pam_unix(cron:session): session closed for user root
+Mar 24 21:17:01 Kajetandell CRON[27250]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 24 21:17:01 Kajetandell CRON[27250]: pam_unix(cron:session): session closed for user root
+Mar 24 22:17:01 Kajetandell CRON[41159]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 24 22:17:01 Kajetandell CRON[41159]: pam_unix(cron:session): session closed for user root
+Mar 24 22:26:55 Kajetandell sudo:  kajetan : TTY=pts/4 ; PWD=/home/kajetan/shell-dojo/course ; USER=root ; COMMAND=/usr/bin/apt install geany
+Mar 24 22:26:55 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kajetan(uid=1000)
+Mar 24 22:27:05 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 07:11:53 Kajetandell systemd-logind[151]: New seat seat0.
+Mar 25 07:11:54 Kajetandell sshd[232]: Server listening on 0.0.0.0 port 22.
+Mar 25 07:11:54 Kajetandell sshd[232]: Server listening on :: port 22.
+Mar 25 07:11:56 Kajetandell login[365]: pam_unix(login:session): session opened for user kajetan(uid=1000) by (uid=0)
+Mar 25 07:11:56 Kajetandell systemd-logind[151]: New session 1 of user kajetan.
+Mar 25 07:11:56 Kajetandell systemd: pam_unix(systemd-user:session): session opened for user kajetan(uid=1000) by (uid=0)
+Mar 25 20:25:59 Kajetandell systemd-logind[154]: New seat seat0.
+Mar 25 20:25:59 Kajetandell sshd[233]: Server listening on 0.0.0.0 port 22.
+Mar 25 20:25:59 Kajetandell sshd[233]: Server listening on :: port 22.
+Mar 25 20:26:01 Kajetandell login[372]: pam_unix(login:session): session opened for user kajetan(uid=1000) by (uid=0)
+Mar 25 20:26:01 Kajetandell systemd-logind[154]: New session 1 of user kajetan.
+Mar 25 20:26:01 Kajetandell systemd: pam_unix(systemd-user:session): session opened for user kajetan(uid=1000) by (uid=0)
+Mar 25 21:00:38 Kajetandell sudo:  kajetan : TTY=pts/5 ; PWD=/home/kajetan/shell-dojo/course ; USER=root ; COMMAND=/usr/bin/apt remove openttd
+Mar 25 21:00:38 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kajetan(uid=1000)
+Mar 25 21:00:41 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 21:01:08 Kajetandell sudo:  kajetan : TTY=pts/5 ; PWD=/home/kajetan/shell-dojo/course ; USER=root ; COMMAND=/usr/bin/apt install openttd
+Mar 25 21:01:08 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kajetan(uid=1000)
+Mar 25 21:01:10 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 21:17:01 Kajetandell CRON[12998]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 25 21:17:01 Kajetandell CRON[12998]: pam_unix(cron:session): session closed for user root
+Mar 25 21:18:24 Kajetandell sudo:  kajetan : TTY=pts/5 ; PWD=/home/kajetan/shell-dojo/course ; USER=root ; COMMAND=/usr/bin/apt remove htop
+Mar 25 21:18:24 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kajetan(uid=1000)
+Mar 25 21:18:26 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 21:18:46 Kajetandell sudo:  kajetan : TTY=pts/5 ; PWD=/home/kajetan/shell-dojo/course ; USER=root ; COMMAND=/usr/bin/apt install htop
+Mar 25 21:18:46 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kajetan(uid=1000)
+Mar 25 21:18:48 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 22:17:01 Kajetandell CRON[27285]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 25 22:17:01 Kajetandell CRON[27285]: pam_unix(cron:session): session closed for user root
+Mar 25 23:17:01 Kajetandell CRON[41139]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 25 23:17:01 Kajetandell CRON[41139]: pam_unix(cron:session): session closed for user root
+Mar 26 00:17:01 Kajetandell CRON[54473]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 26 00:17:01 Kajetandell CRON[54473]: pam_unix(cron:session): session closed for user root
+Mar 26 01:17:01 Kajetandell CRON[67705]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 26 01:17:01 Kajetandell CRON[67705]: pam_unix(cron:session): session closed for user root
+Mar 26 02:00:01 Kajetandell CRON[77221]: pam_unix(cron:session): session opened for user kajetan(uid=1000) by (uid=0)
+Mar 26 02:00:01 Kajetandell CRON[77221]: pam_unix(cron:session): session closed for user kajetan
+Mar 26 02:17:02 Kajetandell CRON[81431]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 26 02:17:02 Kajetandell CRON[81431]: pam_unix(cron:session): session closed for user root
+Mar 26 03:10:01 Kajetandell CRON[93112]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 26 03:10:01 Kajetandell CRON[93112]: pam_unix(cron:session): session closed for user root
+Mar 26 03:17:02 Kajetandell CRON[94655]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 26 03:17:02 Kajetandell CRON[94655]: pam_unix(cron:session): session closed for user root
+Mar 26 04:17:01 Kajetandell CRON[107811]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 26 04:17:01 Kajetandell CRON[107811]: pam_unix(cron:session): session closed for user root
+Mar 28 09:00:29 Kajetandell systemd-logind[148]: New seat seat0.
+Mar 28 09:00:30 Kajetandell sshd[233]: Server listening on 0.0.0.0 port 22.
+Mar 28 09:00:30 Kajetandell sshd[233]: Server listening on :: port 22.
+Mar 28 09:00:32 Kajetandell login[361]: pam_unix(login:session): session opened for user kajetan(uid=1000) by (uid=0)
+Mar 28 09:00:32 Kajetandell systemd-logind[148]: New session 1 of user kajetan.
+Mar 28 09:00:32 Kajetandell systemd: pam_unix(systemd-user:session): session opened for user kajetan(uid=1000) by (uid=0)
+Mar 28 19:58:17 Kajetandell systemd-logind[154]: New seat seat0.
+Mar 28 19:58:17 Kajetandell sshd[237]: Server listening on 0.0.0.0 port 22.
+Mar 28 19:58:17 Kajetandell sshd[237]: Server listening on :: port 22.
+Mar 28 19:58:21 Kajetandell login[374]: pam_unix(login:session): session opened for user kajetan(uid=1000) by (uid=0)
+Mar 28 19:58:21 Kajetandell systemd-logind[154]: New session 1 of user kajetan.
+Mar 28 19:58:21 Kajetandell systemd: pam_unix(systemd-user:session): session opened for user kajetan(uid=1000) by (uid=0)
+Mar 28 20:05:53 Kajetandell sudo:  kajetan : TTY=pts/0 ; PWD=/home/kajetan/shell-dojo/course ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 28 20:05:53 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 28 20:05:56 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 20:05:56 Kajetandell sudo:  kajetan : TTY=pts/0 ; PWD=/home/kajetan/shell-dojo/course ; USER=root ; COMMAND=/usr/bin/apt dist-upgrade
+Mar 28 20:05:56 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 28 20:06:23 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 20:06:26 Kajetandell sudo:  kajetan : TTY=pts/0 ; PWD=/home/kajetan/shell-dojo/course ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 28 20:06:26 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 28 20:06:28 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 20:06:28 Kajetandell sudo:  kajetan : TTY=pts/0 ; PWD=/home/kajetan/shell-dojo/course ; USER=root ; COMMAND=/usr/bin/apt dist-upgrade
+Mar 28 20:06:28 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar 28 20:06:28 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 20:14:13 Kajetandell sudo:  kajetan : TTY=pts/3 ; PWD=/home/kajetan/shell-dojo/course ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 28 20:14:13 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kajetan(uid=1000)
+Mar 28 20:14:15 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 20:14:15 Kajetandell sudo:  kajetan : TTY=pts/3 ; PWD=/home/kajetan/shell-dojo/course ; USER=root ; COMMAND=/usr/bin/apt dist-upgrade
+Mar 28 20:14:15 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kajetan(uid=1000)
+Mar 28 20:14:16 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 20:17:01 Kajetandell CRON[8399]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 28 20:17:01 Kajetandell CRON[8399]: pam_unix(cron:session): session closed for user root
+Mar 28 20:25:22 Kajetandell sudo:  kajetan : TTY=pts/3 ; PWD=/home/kajetan/shell-dojo/course ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 28 20:25:22 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kajetan(uid=1000)
+Mar 28 20:25:24 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 20:25:24 Kajetandell sudo:  kajetan : TTY=pts/3 ; PWD=/home/kajetan/shell-dojo/course ; USER=root ; COMMAND=/usr/bin/apt dist-upgrade
+Mar 28 20:25:24 Kajetandell sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kajetan(uid=1000)
+Mar 28 20:25:24 Kajetandell sudo: pam_unix(sudo:session): session closed for user root
